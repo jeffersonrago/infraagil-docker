@@ -1,0 +1,9 @@
+site_web:
+  image: httpd
+  volumes:
+    - /srv/web1:/usr/local/apache2/htdocs
+
+site_web2:
+  image: httpd
+  volumes:
+    - /srv/web2:/usr/local/apache2/htdocs
